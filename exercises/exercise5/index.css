@@ -64,6 +64,8 @@ h1 {
 
 .delete-btn,
 .add-task-btn,
+.close-btn,
+.submit-btn,
 .edit-btn {
   padding: 5px 10px;
   font-size: 18px;
@@ -81,4 +83,25 @@ h1 {
 
 #button {
   padding: 8px 15px;
+}
+
+.modal-wrapper {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.281);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.open {
+  display: flex !important;
 }
